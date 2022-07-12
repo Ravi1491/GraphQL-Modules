@@ -1,0 +1,29 @@
+{
+  "name": "examples-di",
+  "version": "0.7.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql-modules": "^2.1.0",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.9.1",
+    "path": "^0.12.7",
+    "reflect-metadata": "^0.1.13",
+    "subscriptions-transport-ws": "^0.11.0",
+    "uniqid": "^5.4.0",
+    "ws": "^8.8.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.0.3",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
